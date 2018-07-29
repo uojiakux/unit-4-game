@@ -1,0 +1,23 @@
+#Title {
+    font-family: 'Muli', sans-serif;
+    font-size: 40px;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+}
+
+.Pictures {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#target-number {
+    background-color: yellow;
+}
+
+#results {
+    background-color: lightblue;
+}
