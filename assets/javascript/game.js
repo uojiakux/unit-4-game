@@ -31,9 +31,11 @@ $("#blue-crystal").on("click", function () {
     if (results === targetNumber) {
         wins++;
         $("#wins").text(wins);
+        $("#wins").prepend("<p>You won!</p>");
     } else if (results > targetNumber) {
         losses++;
         $("#losses").text(losses);
+        $("#losses").prepend("<p>You lose!</p>");
     }
 })
 
@@ -45,9 +47,11 @@ $("#green-crystal").on("click", function () {
     if (results === targetNumber) {
         wins++;
         $("#wins").text(wins);
+        $("#wins").prepend("<p>You won!</p>");
     } else if (results > targetNumber) {
         losses++;
         $("#losses").text(losses);
+        $("#losses").prepend("<p>You lose!</p>");
     }
 })
 
@@ -59,9 +63,11 @@ $("#purple-crystal").on("click", function () {
     if (results === targetNumber) {
         wins++;
         $("#wins").text(wins);
+        $("#wins").prepend("<p>You won!</p>");
     } else if (results > targetNumber) {
         losses++;
         $("#losses").text(losses);
+        $("#losses").prepend("<p>You lose!</p>");
     }
 })
 
@@ -73,9 +79,11 @@ $("#red-crystal").on("click", function () {
     if (results === targetNumber) {
         wins++;
         $("#wins").text(wins);
+        $("#wins").prepend("<p>You won!</p>");
     } else if (results > targetNumber) {
         losses++;
         $("#losses").text(losses);
+        $("#losses").prepend("<p>You lose!</p>");
     }
 })
 
