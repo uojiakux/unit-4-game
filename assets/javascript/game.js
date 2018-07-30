@@ -3,6 +3,8 @@
 // Start the user's score at zero
 
 let results = 0;
+let wins = 0;
+let losses = 0;
 
 // Define the crystals and their values
 // You will need a Math.Random generator to change the values of each crystal image each time the window refreshes. 
@@ -25,23 +27,55 @@ $("#blue-crystal").on("click", function () {
 
     results = results + bluecrystal;
     $("#results").text(results);
+
+    if (results === targetNumber) {
+        wins++;
+        $("#wins").text(wins);
+    } else if (results > targetNumber) {
+        losses++;
+        $("#losses").text(losses);
+    }
 })
 
 $("#green-crystal").on("click", function () {
 
     results = results + greencrystal;
     $("#results").text(results);
+
+    if (results === targetNumber) {
+        wins++;
+        $("#wins").text(wins);
+    } else if (results > targetNumber) {
+        losses++;
+        $("#losses").text(losses);
+    }
 })
 
 $("#purple-crystal").on("click", function () {
 
     results = results + purplecrystal;
     $("#results").text(results);
+
+    if (results === targetNumber) {
+        wins++;
+        $("#wins").text(wins);
+    } else if (results > targetNumber) {
+        losses++;
+        $("#losses").text(losses);
+    }
 })
 
 $("#red-crystal").on("click", function () {
 
     results = results + redcrystal;
     $("#results").text(results);
+
+    if (results === targetNumber) {
+        wins++;
+        $("#wins").text(wins);
+    } else if (results > targetNumber) {
+        losses++;
+        $("#losses").text(losses);
+    }
 })
 
