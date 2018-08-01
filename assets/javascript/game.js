@@ -22,12 +22,15 @@ greencrystal = Math.floor(Math.random() * 12) + 1;
 purplecrystal = Math.floor(Math.random() * 12) + 1;
 redcrystal = Math.floor(Math.random() * 12) + 1;
 
+targetNumber = Math.floor(Math.random() * 102) + 19;
+    $("#target-number").text(targetNumber)
+
 }
 
 
 // Define the value of the target number
 
-    const targetNumber = Math.floor(Math.random() * 102) + 19;
+    var targetNumber = Math.floor(Math.random() * 102) + 19;
     $("#target-number").text(targetNumber)
 
 
